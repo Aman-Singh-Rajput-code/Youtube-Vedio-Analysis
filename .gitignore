@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv/
+.env/
+
+# Environment Variables
+.env
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+
+# Test cache
+.pytest_cache/
+
+# Coverage reports
+.coverage
+htmlcov/
+.cache
+
+# MyPy
+.mypy_cache/
+
+# PyInstaller
+*.spec
+
+# macOS system file
+.DS_Store
+
+# Ignore sensitive or personal JSON files
+secret_config.json
+*.secret.json
+
+# If your important JSON file is in a folder like config/
+config/secret_config.json
